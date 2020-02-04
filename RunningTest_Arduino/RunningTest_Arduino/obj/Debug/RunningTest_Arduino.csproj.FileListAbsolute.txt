@@ -1,0 +1,15 @@
+C:\Users\sdf80\source\repos\RunningTest_Arduino\RunningTest_Arduino\bin\Debug\RunningTest_Arduino.exe.config
+C:\Users\sdf80\source\repos\RunningTest_Arduino\RunningTest_Arduino\bin\Debug\RunningTest_Arduino.exe
+C:\Users\sdf80\source\repos\RunningTest_Arduino\RunningTest_Arduino\bin\Debug\RunningTest_Arduino.pdb
+C:\Users\sdf80\source\repos\RunningTest_Arduino\RunningTest_Arduino\obj\Debug\RunningTest_Arduino.csprojAssemblyReference.cache
+C:\Users\sdf80\source\repos\RunningTest_Arduino\RunningTest_Arduino\obj\Debug\MainWindow.g.cs
+C:\Users\sdf80\source\repos\RunningTest_Arduino\RunningTest_Arduino\obj\Debug\App.g.cs
+C:\Users\sdf80\source\repos\RunningTest_Arduino\RunningTest_Arduino\obj\Debug\RunningTest_Arduino_MarkupCompile.cache
+C:\Users\sdf80\source\repos\RunningTest_Arduino\RunningTest_Arduino\obj\Debug\RunningTest_Arduino_MarkupCompile.lref
+C:\Users\sdf80\source\repos\RunningTest_Arduino\RunningTest_Arduino\obj\Debug\MainWindow.baml
+C:\Users\sdf80\source\repos\RunningTest_Arduino\RunningTest_Arduino\obj\Debug\RunningTest_Arduino.g.resources
+C:\Users\sdf80\source\repos\RunningTest_Arduino\RunningTest_Arduino\obj\Debug\RunningTest_Arduino.Properties.Resources.resources
+C:\Users\sdf80\source\repos\RunningTest_Arduino\RunningTest_Arduino\obj\Debug\RunningTest_Arduino.csproj.GenerateResource.cache
+C:\Users\sdf80\source\repos\RunningTest_Arduino\RunningTest_Arduino\obj\Debug\RunningTest_Arduino.csproj.CoreCompileInputs.cache
+C:\Users\sdf80\source\repos\RunningTest_Arduino\RunningTest_Arduino\obj\Debug\RunningTest_Arduino.exe
+C:\Users\sdf80\source\repos\RunningTest_Arduino\RunningTest_Arduino\obj\Debug\RunningTest_Arduino.pdb

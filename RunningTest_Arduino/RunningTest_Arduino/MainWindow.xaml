@@ -1,0 +1,52 @@
+﻿<Window x:Class="RunningTest_Arduino.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:RunningTest_Arduino"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="350" Width="300" Background="WhiteSmoke" Loaded="Window_Loaded">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition/>
+            <RowDefinition/>
+        </Grid.RowDefinitions>
+        <ListBox Grid.Row="0" Margin="10" Background="White" x:Name="ListBox1"/>
+        <Grid Grid.Row="1">
+            <Grid.RowDefinitions>
+                <RowDefinition/>
+                <RowDefinition/>
+                <RowDefinition/>
+                <RowDefinition/>
+                <RowDefinition/>
+            </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+            </Grid.ColumnDefinitions>
+            <Label Content="Start Time" Grid.Row="0"/>
+            <Label x:Name="time1" Grid.Column="1" HorizontalAlignment="Stretch" />
+            <Label Content="End Time" Grid.Row="1"/>
+            <Label x:Name="time2" Grid.Column="1" Grid.Row="1" HorizontalAlignment="Stretch" />
+
+            <Label Content="Number of People" Grid.Row="2" />
+            <Grid Margin="3" Grid.Column="1" Grid.Row="2">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*" />
+                    <ColumnDefinition Width="20" />
+                </Grid.ColumnDefinitions>
+
+                <TextBox Name="TextBoxValue" TextAlignment="Right" Grid.Column="0"/>
+                <StackPanel Orientation="Vertical" Grid.Column="1" VerticalAlignment="Center">
+                    <Button x:Name="Increase" Content="Up" FontSize="5" Margin="2"/>
+                    <Button x:Name="Decrease" Content="Down" FontSize="5" Margin="2"/>
+                </StackPanel>
+            </Grid>
+            <ComboBox x:Name="COMPortList" HorizontalAlignment="Stretch"  Grid.Row="3" Margin="5"/>
+            <Button Content="Connect" Margin="5" Grid.Row="3" Grid.Column="1" Click="Button_Click"/>
+
+            <Button Grid.Column="0" Grid.Row="4" Content="Start" Margin="5"  Click="Button_Click_1" />
+            <Button Grid.Column="1" Grid.Row="4" Content="Stop" Margin="5" />
+        </Grid>
+    </Grid>
+</Window>
