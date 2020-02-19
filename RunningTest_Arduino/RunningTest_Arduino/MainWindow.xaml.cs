@@ -39,7 +39,7 @@ namespace RunningTest_Arduino
                 try
                 {
                     mainport.PortName = COMPortList.SelectedItem.ToString();
-                    mainport.BaudRate = 19200;
+                    mainport.BaudRate = 9600;
                     mainport.DataBits = 8;
                     mainport.StopBits = StopBits.One;
                     mainport.Parity = Parity.None;
